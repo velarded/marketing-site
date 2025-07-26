@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
         
-    $to = "info@hyphenmarketing.ca";  
+    $to = "danica.cristine.velarde@gmail.com";  
     $subject = "$company Has Submitted An Inquiry! | $name";
     
     $body .= "Company: $company\n";
